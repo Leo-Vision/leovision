@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeoVision</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="LeoVision logo" class="logo" />
+    <nav>
+      <a href="#about">O nas</a>
+      <a href="#services">Usługi</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>LeoVision</h1>
+    <p>Profesjonalny montaż monitoringu i systemów zabezpieczeń w Gdańsku</p>
+  </section>
+
+  <section id="about">
+    <h2>O nas</h2>
+    <p>LeoVision to firma specjalizująca się w kompleksowym montażu systemów monitoringu. 
+    Działamy z pasją i zaangażowaniem, oferując doradztwo techniczne oraz serwis istniejących systemów. 
+    Naszym celem jest zapewnienie bezpieczeństwa Twojemu domowi i firmie.</p>
+  </section>
+
+  <section id="services">
+    <h2>Nasze usługi</h2>
+    <ul>
+      <li>✅ Kompletny montaż monitoringu (zewnętrznego i wewnętrznego)</li>
+      <li>✅ Okablowanie i konfiguracja systemów</li>
+      <li>✅ Doradztwo w doborze sprzętu</li>
+      <li>✅ Serwis i modernizacja istniejących instalacji</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Kontakt</h2>
+    <p><strong>Telefon:</strong> +48 694 545 191</p>
+    <p><strong>Email:</strong> leovision.kontakt@gmail.com</p>
+    <form action="https://formsubmit.co/leovision.kontakt@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Imię i nazwisko" required />
+      <input type="email" name="email" placeholder="Adres email" required />
+      <textarea name="message" placeholder="Twoja wiadomość" required></textarea>
+      <button type="submit">Wyślij</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 LeoVision – Systemy monitoringu</p>
+  </footer>
+</body>
+</html>
